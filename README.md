@@ -1,8 +1,20 @@
-# pull requestの練習リポジトリ
 
-ほげほげ
+# pull request の練習リポジトリ
 
-## pushの流れ
+GithubのREADMEファイルはGithubマークダウン記法を使って記述する。
+
+[markdownで行こう！](https://gist.github.com/wate/7072365)
+
+## git -> Githubへのpush(流れ)
+1. ローカル上でディレクトリ作成(プロジェクト)
+2. ディレクトリ内でgit init コマンドを使い初期化
+3. 何かしらの作成 or 編集
+4. git add ファイル名コマンドで更新したものをステージングエリアに上げる
+5. git commit -m "コメント"コマンドで変更を保存する
+6. Github上でリモートリポジトリを作成
+7. git remote add と git pushのコマンドをコピー
+8. git remote add origin githubのURLコマンドでローカルとリモートを接続
+9. git push -u origin masterコマンドで保存したソースコードをリモートへ送る
 
 ## pullの流れ
 1. リモートリポジトリをローカルより育てる
@@ -43,20 +55,3 @@
 + `git branch -d ブランチ名`
 + もし`error: The branch 'ブランチ名' is not fully merged.`がでれば、
     + `git branch -D ブランチ名`で強制削除も可能
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> a9999f00e1eefd8a544096e03b632d59a8a4442e
