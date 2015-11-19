@@ -5,6 +5,12 @@ GithubのREADMEファイルはGithubマークダウン記法を使って記述�
 
 [markdownで行こう！](https://gist.github.com/wate/7072365)
 
+## おすすめのGithub拡張機能
++ [octotree](https://github.com/buunguyen/octotree)
+    + Github上にフォルダtreeを表示
++ [Zenhub](http://qiita.com/GeckoTang/items/f75b9a1c20c8e5091147)
+    + Githubにカンバンなどの機能追加
+
 ## git -> Githubへのpushの流れ
 1. ローカル上でディレクトリ作成(プロジェクト)
 2. ディレクトリ内でgit init コマンドを使い初期化
@@ -32,8 +38,6 @@ GithubのREADMEファイルはGithubマークダウン記法を使って記述�
     + pull req中に同じブランチに修正内容をpushすると、それだけで修正内容がpull reqにのっかる
 9. 修正内容を確認し、mergeする
 10. ブランチを削除する
-
-==========
 
 ## ブランチの切り替え方
 + `git checkout ブランチ名` コマンドでブランチを行き来できる
