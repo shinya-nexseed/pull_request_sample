@@ -11,6 +11,29 @@ GithubのREADMEファイルはGithubマークダウン記法を使って記述�
 + [Zenhub](http://qiita.com/GeckoTang/items/f75b9a1c20c8e5091147)
     + Githubにカンバンなどの機能追加
 
+## gitコマンドまとめ
+| コマンド        | 意味　          |
+| --------------- | --------------- |
+| git init | カレントディレクトリを Git リポジトリに変換する |
+| git status | 作業ディレクトリやステージングエリアの状況を確認する |
+| git log | コミット履歴の一覧表示。 |
+| git log --oneline | logの出力結果を一行にまとめる |
+| git log -n 件数 | 表示する件数を絞る |
+| git add ファイル名 | 作業ディレクトリ内の変更をステージングエリアに追加する |
+| git commit -m "コメント" | ステージされた内容をローカルリポジトリにコミットする |
+| git remote add origin リポジトリURL | Github上のリポジトリとの接続の作成 |
+| git push -u origin ブランチ名 | ブランチをローカルリポジトリからリモートリポジトリに送る操作 |
+| git pull origin ブランチ名 | 最新のリモートリポジトリを現在のローカルリポジトリにマージ |
+| git branch | 現在のブランチの情報を表示 |
+| git checkout ブランチ名 | ブランチを移動する |
+| git checkout -b ブランチ名 | 新規ブランチの作成 |
+| git checkout -d ブランチ名 | ブランチの削除 |
+| git checkout コミットハッシュ | 指定したコミットまでコードを逆上る |
+| git checkout ブランチ名 | 最新のコミットまでコードを戻す |
+| git commit --amend -m "新規コメント" | ひとつ前のコミットのコメントを修正する |
+| git cherry-pick コミットハッシュ | 別ブランチのコミットをマージする |
+| git clone リポジトリURL | リモートリポジトリを複製する |
+
 ## git -> Githubへのpushの流れ
 1. ローカル上でディレクトリ作成(プロジェクト)
 2. ディレクトリ内でgit init コマンドを使い初期化
