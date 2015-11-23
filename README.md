@@ -27,7 +27,7 @@ GithubのREADMEファイルはGithubマークダウン記法を使って記述�
 | git branch | 現在のブランチの情報を表示 |
 | git checkout ブランチ名 | ブランチを移動する |
 | git checkout -b ブランチ名 | 新規ブランチの作成 |
-| git checkout -d ブランチ名 | ブランチの削除 |
+| git branch -d ブランチ名 | ブランチの削除 |
 | git checkout コミットハッシュ | 指定したコミットまでコードを逆上る |
 | git checkout ブランチ名 | 最新のコミットまでコードを戻す |
 | git commit --amend -m "新規コメント" | ひとつ前のコミットのコメントを修正する |
